@@ -1,4 +1,6 @@
 package org.example.service;
 
-public interface PetTypeService {
+import org.example.model.PetType;
+
+public interface PetTypeService extends CrudService<PetType, Long> {
 }

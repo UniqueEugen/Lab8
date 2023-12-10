@@ -1,4 +1,6 @@
 package org.example.service;
 
-public interface SpecialityService {
+import org.example.model.Speciality;
+
+public interface SpecialityService extends CrudService<Speciality, Long> {
 }
